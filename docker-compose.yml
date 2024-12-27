@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  piper:
+    image: piper-tts-rpi5
+    devices:
+      - /dev/snd:/dev/snd
+    restart: always
+    stdin_open: true
+    tty: true
+    ports:
+      - 8765:8765
+    volumes:
+      - ./server.py:/opt/server.py
