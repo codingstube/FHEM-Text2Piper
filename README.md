@@ -1,4 +1,4 @@
-# Text2Piper TTS System
+# Text2Piper FHEM TTS System
 
 A text-to-speech system combining FHEM home automation with Piper TTS, enabling voice output through a Flask server interface.
 
